@@ -1,0 +1,19 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "helloworld",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "phonegap-plugin-media-stream": {},
+      "cordova-plugin-camera": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "~4.5.5",
+    "es6-promise-plugin": "^4.2.2",
+    "phonegap-plugin-media-stream": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git"
+  }
+}
