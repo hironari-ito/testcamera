@@ -7,15 +7,15 @@
       "ios"
     ],
     "plugins": {
-      "phonegap-plugin-media-stream": {
-        "CAMERA_USAGE_DESCRIPTION": "�����̎ʐ^��B�e���邽�߃J������N�����܂�"
-      },
+      "phonegap-plugin-media-stream": {},
       "cordova-plugin-camera": {}
     }
   },
   "dependencies": {
     "cordova-ios": "~4.5.5",
+    "cordova-plugin-camera": "^4.0.3",
+    "cordova-plugin-iosrtc-extended": "^2.0.7",
     "es6-promise-plugin": "^4.2.2",
-    "phonegap-plugin-media-stream": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git"
+    "phonegap-plugin-media-stream": "^1.2.1"
   }
 }

@@ -1,24 +1,27 @@
 {
-  "_from": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
+  "_from": "phonegap-plugin-media-stream",
   "_id": "phonegap-plugin-media-stream@1.2.1",
   "_inBundle": false,
-  "_integrity": "",
+  "_integrity": "sha1-FFsGNPWltZutRMuBA5RJkzew8QI=",
   "_location": "/phonegap-plugin-media-stream",
   "_phantomChildren": {},
   "_requested": {
-    "type": "git",
-    "raw": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
-    "rawSpec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
-    "saveSpec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
-    "fetchSpec": "https://github.com/phonegap/phonegap-plugin-media-stream.git",
-    "gitCommittish": null
+    "type": "tag",
+    "registry": true,
+    "raw": "phonegap-plugin-media-stream",
+    "name": "phonegap-plugin-media-stream",
+    "escapedName": "phonegap-plugin-media-stream",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git#6d73cda77995d64b84f45e7287c8cd537341e44d",
-  "_spec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
+  "_resolved": "https://registry.npmjs.org/phonegap-plugin-media-stream/-/phonegap-plugin-media-stream-1.2.1.tgz",
+  "_shasum": "145b0634f5a5b59bad44cb810394499337b0f102",
+  "_spec": "phonegap-plugin-media-stream",
   "_where": "C:\\xampp\\htdocs\\testcamera",
   "author": {
     "name": "Adobe PhoneGap Team"
@@ -53,15 +56,7 @@
     "pluginpub": "^0.0.9"
   },
   "engines": {
-    "cordovaDependencies": {
-      "1.3.0": {
-        "cordova": ">=7.1.0",
-        "cordova-android": ">=6.3.0"
-      },
-      "<1.3.0": {
-        "cordova": ">=3.0.0"
-      }
-    }
+    "cordova": ">=3.0.0"
   },
   "homepage": "https://github.com/phonegap/phonegap-plugin-media-stream#readme",
   "keywords": [
