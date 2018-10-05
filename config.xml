@@ -106,8 +106,8 @@
     </platform>
     <engine name="ios" />
     <plugin name="phonegap-plugin-media-stream" spec="^1.2.1" >
+		<variable name="CAMERA_USAGE_DESCRIPTION" value="use camera" />
 	</plugin>
     <plugin name="cordova-plugin-camera" spec="^4.0.3" >
-		<variable name="CAMERA_USAGE_DESCRIPTION" value="use camera" />
 	</plugin>
 </widget>
