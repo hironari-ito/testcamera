@@ -108,6 +108,6 @@
     <plugin name="phonegap-plugin-media-stream" spec="^1.2.1" >
 	</plugin>
     <plugin name="cordova-plugin-camera" spec="^4.0.3" >
-		<variable name="CAMERA_USAGE_DESCRIPTION" value="ƒƒ‚‚ÌŽÊ^‚ðŽB‰e‚·‚é‚½‚ßƒJƒƒ‰‚ð‹N“®‚µ‚Ü‚·" />
+		<variable name="CAMERA_USAGE_DESCRIPTION" value="use camera" />
 	</plugin>
 </widget>
