@@ -17,33 +17,14 @@
  * under the License.
  */
 document.addEventListener("deviceready", function() {
-  alert("iOSRTCApp >>> deviceready event");
-  alert(navigator.camera);
-  // if iOS devices
-  if (window.device.platform === "iOS") {
-    cordova.plugins.iosrtc.debug.enable("*");
-    // Pollute global namespace with WebRTC stuff.
-    cordova.plugins.iosrtc.registerGlobals();
-    window.addEventListener("orientationchange", function() {
-      console.log("iOSRTCApp >>> orientationchange event");
-      updateVideos();
-    });
-    cordova.plugins.iosrtc.getUserMedia(
-      // constraints
-      {
-        audio: true,
-        video: true
-      },
-      // success callback
-      function(stream) {
-        alert('got local MediaStream: ', stream);
-        var stea = document.getElementById('video2');
-        stea.srcObject = stream;
-      },
-      // failure callback
-      function(error) {
-        alert('getUserMedia failed: ', error);
-      }
-
-    });
+	navigator.mediaDevices.getUserMedia({
+    'audio': true,
+    'video': {
+        facingMode: 'user'
+    }
+}).then(function(mediaStream) {
+  // do something with the media stream
+  var stea = document.getElementById('test');
+  stea.srcObject = mediaStream;
+});
 });
