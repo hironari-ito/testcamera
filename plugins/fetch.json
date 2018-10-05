@@ -104,7 +104,7 @@
   "phonegap-plugin-media-stream": {
     "source": {
       "type": "registry",
-      "id": "https://github.com/phonegap/phonegap-plugin-media-stream.git"
+      "id": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git"
     },
     "is_top_level": true,
     "variables": {}

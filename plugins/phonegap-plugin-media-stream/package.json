@@ -7,8 +7,8 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/phonegap/phonegap-plugin-media-stream.git",
-    "rawSpec": "https://github.com/phonegap/phonegap-plugin-media-stream.git",
+    "raw": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
+    "rawSpec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
     "saveSpec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
     "fetchSpec": "https://github.com/phonegap/phonegap-plugin-media-stream.git",
     "gitCommittish": null
@@ -18,7 +18,7 @@
     "/"
   ],
   "_resolved": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git#6d73cda77995d64b84f45e7287c8cd537341e44d",
-  "_spec": "https://github.com/phonegap/phonegap-plugin-media-stream.git",
+  "_spec": "git+https://github.com/phonegap/phonegap-plugin-media-stream.git",
   "_where": "C:\\xampp\\htdocs\\testcamera",
   "author": {
     "name": "Adobe PhoneGap Team"

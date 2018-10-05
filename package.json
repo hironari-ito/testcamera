@@ -7,7 +7,9 @@
       "ios"
     ],
     "plugins": {
-      "phonegap-plugin-media-stream": {},
+      "phonegap-plugin-media-stream": {
+        "CAMERA_USAGE_DESCRIPTION": "�����̎ʐ^��B�e���邽�߃J������N�����܂�"
+      },
       "cordova-plugin-camera": {}
     }
   },
