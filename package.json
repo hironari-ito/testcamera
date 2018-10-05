@@ -1,7 +1,7 @@
 {
-  "name": "com.phonegap.helloworld",
+  "name": "com.testcamera.app",
   "version": "1.0.0",
-  "displayName": "helloworld",
+  "displayName": "testcamera",
   "cordova": {
     "platforms": [
       "ios"
